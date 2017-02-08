@@ -298,7 +298,7 @@ var barChartData = {
                         enabled: true,
                         mode: 'index',
                         intersect: true,
-                        custom: customTooltips
+                        // custom: customTooltips
                     }
                 }
             });
@@ -355,7 +355,7 @@ var barChartData = {
                         enabled: true,
                         mode: 'index',
                         intersect: true,
-                        custom: customTooltips
+                        // custom: customTooltips
                     }
                 }
             });
@@ -413,7 +413,7 @@ var barChartData = {
                         enabled: true,
                         mode: 'index',
                         intersect: true,
-                        custom: customTooltips
+                        // custom: customTooltips
                     }
                 }
             });
