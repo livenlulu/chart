@@ -297,7 +297,7 @@ var barChartData = {
                     tooltips: {
                         enabled: true,
                         mode: 'index',
-                        intersect: false,
+                        intersect: true,
                         custom: customTooltips
                     }
                 }
@@ -354,7 +354,7 @@ var barChartData = {
                     tooltips: {
                         enabled: true,
                         mode: 'index',
-                        intersect: false,
+                        intersect: true,
                         custom: customTooltips
                     }
                 }
@@ -412,7 +412,7 @@ var barChartData = {
                     tooltips: {
                         enabled: true,
                         mode: 'index',
-                        intersect: false,
+                        intersect: true,
                         custom: customTooltips
                     }
                 }
@@ -482,7 +482,7 @@ var barChartData = {
 
 
     var randomScalingFactor = function() {
-        return Math.round(Math.random() * 100);
+        return Math.round(Math.random() * 100) ;
     };
 
     var config = {
